@@ -1,0 +1,42 @@
+html{
+	background-image: url("./Images/movies.jpg");
+	background-size: cover;
+}
+
+#container{
+	border: 10px solid black;
+	font-family: sans-serif;
+	background-color: #A0522D;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 600px;
+}
+
+#movie, #search{
+	margin-top:20px;
+	font-size: 30px;
+	box-shadow: 5px 10px black;
+}
+
+#title{
+	font-size: 45px;
+}
+
+#search:hover{
+	background-color: gold;
+}
+
+#starring{
+	font-weight: bold;
+}
+
+img{
+	box-shadow: 5px 10px black;
+}
+
+img:hover{
+	width:500px;
+	height:600px;
+	transition: width 3s, height 3s;
+}
