@@ -16,7 +16,7 @@ async function movieShow(){
 	let response = await fetch("https://imdb8.p.rapidapi.com/auto-complete?q="+ name, {
 	"method": "GET",
 	"headers": {
-		"x-rapidapi-key": "c43531d21bmsh0c344bc04980952p1e269ajsn1ab5efe1f235",
+		"x-rapidapi-key": "",//add own api key
 		"x-rapidapi-host": "imdb8.p.rapidapi.com"
 	}
 })
